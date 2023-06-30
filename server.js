@@ -17,6 +17,6 @@ app.post('/webhook', (req, res) => {
 
 const port = 3006;
 server.listen(port, () => {
-  console.log(`Server listening on port ${port}`);
+  console.log(`Server aktif pada port ${port}`);
 });
 

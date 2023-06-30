@@ -6,9 +6,21 @@ namun kita (saya) tidak tau bagaimana sebenarnya teknologi tersebut bekerja,
 WebHookSock inilah salah satu prototipe bagaimana teknologi WebHook pada API Telegram tersebut bekerja.
 
 30062023, Palangka Raya.
+
 Ryan Bekabe | HanyaJasa.Com | hanyajasa@gmail.com
 
+
+
 ```
+http://hanyajasa.com:3006/
+
+https://reqbin.com/ -> http://hanyajasa.com:3006/webhook -> POST -> Content = JSON
+
+{"Bismillah":"Test post to Webhook HanyaJasa"}
+
+
+GitHub: https://github.com/ryanbekabe/webhooksock
+
 git init
 git add .
 git commit -m "WebHookSock 30062023"
