@@ -1,5 +1,7 @@
 # webhooksock
 
+![alt text](WebHookSock.png)
+
 Karena menggunakan WebHook dari API Telegram sudah biasa,
 misal pada penggunaan Telegram Bot,
 namun kita (saya) tidak tau bagaimana sebenarnya teknologi tersebut bekerja,
@@ -25,7 +27,7 @@ GitHub: https://github.com/ryanbekabe/webhooksock
 
 git init
 git add .
-git commit -m "WebHookSock 30062023c"
+git commit -m "WebHookSock 30062023d"
 git branch -M main
 git remote add origin git@github.com:ryanbekabe/webhooksock.git
 git push -u origin main
