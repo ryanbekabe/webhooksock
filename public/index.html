@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WebhookSock - HanyaJasa.Com</title>
+    <script src="/socket.io/socket.io.js"></script>
+  </head>
+  <body>
+    <div id="notificationContainer"></div>
+    <script>
+      const socket = io();
+      socket.on('notification', (data) => {
+        const notificationContainer = document.getElementById('notificationContainer');
+        const notificationElement = document.createElement('div');
+        notificationElement.innerText = JSON.stringify(data);
+        notificationContainer.appendChild(notificationElement);
+      });
+    </script>
+  </body>
+</html>
